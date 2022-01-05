@@ -33,19 +33,7 @@ if(isset($_POST['submit']))
 <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"/>
 <link href="assets/css/custom-icon-set.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript">
-function checkpass()
-{
-if(document.signup.password.value!=document.signup.cpassword.value)
-{
-alert('New Password and Re-Password field does not match');
-document.signup.cpassword.focus();
-return false;
-}
-return true;
-}   
 
-</script>
 
 </head>
 <body class="error-body no-top">
